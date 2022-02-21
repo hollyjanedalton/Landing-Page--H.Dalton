@@ -67,8 +67,9 @@ p {
 .about-paragraphs {
   display: flex;
 }
-.contact {
-  text-align: center;
+
+.project-link {
+  text-align: left;
 }
 
 .email-link {
@@ -110,5 +111,10 @@ p {
 
   .navigation-links {
     margin: 20px;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
   }
 }
