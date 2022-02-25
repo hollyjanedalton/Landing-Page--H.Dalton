@@ -86,7 +86,7 @@ p {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   h2 {
@@ -112,7 +112,9 @@ p {
   .navigation-links {
     margin: 20px;
   }
-
+  .navigation-links a {
+    margin: 10px;
+  }
   .project-link {
     display: block;
     text-align: center;
